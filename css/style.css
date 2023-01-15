@@ -620,7 +620,7 @@ footer {
     }
 
     .content img {
-        width: 90%;
+        width: auto;
     }
 
     /* button */
@@ -637,6 +637,7 @@ footer {
     .image-container {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+        width: auto;
     }
 
     .text-container {
@@ -651,13 +652,16 @@ footer {
 
     .center-section {
         flex-direction: column;
+        width: auto;
 
     }
 
     .left-div,
     .right-div {
         width: 100%;
+        margin: 20px auto   ;
     }
+    
 
     .left-bottom-div {
         position: relative;
@@ -699,5 +703,6 @@ footer {
 
     .images img {
         margin: 10px auto;
+        width: auto;
     }
 }
